@@ -4,6 +4,7 @@ import model.dao.DaoFactory;
 import model.dao.DepartmentDao;
 import model.entities.Department;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +20,10 @@ public class Main {
         System.out.println(department);
 
         System.out.println("\n=== TEST 2: findAll =======");
-
+        List<Department> list = departmentDao.findAll();
+        for (Department dep : list) {
+            System.out.println(dep);
+        }
 
         System.out.println("\n=== TEST 3: insert =======");
         Department newDepartment = new Department(null, "Games");
