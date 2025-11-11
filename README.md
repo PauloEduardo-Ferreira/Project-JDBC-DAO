@@ -53,15 +53,6 @@ ProjetoJDBC‑DAO.iml
 - Encapsulamento de operações de acesso a dados via DAO
 - Utilização de Properties para configuração de conexão
 
-## 🛠️ Melhorias Futuras
-Algumas ideias para estender o projeto:
-- Introduzir conexão via pool (ex: HikariCP) para melhor performance
-- Adotar padrões mais avançados (Repository, Service) ou usar ORM como Hibernate
-- Adicionar tratamento de transações (commit/rollback)
-- Implementar testes unitários/integrados para DAO
-- Suportar múltiplas entidades com relacionamentos (1‑N, N‑N)
-- Incluir integração contínua (CI) com GitHub Actions
-
 ## 📄 Licença
 Este projeto encontra‑se sob a licença MIT. Sinta‑se à vontade para usar, modificar e distribuir.
 
